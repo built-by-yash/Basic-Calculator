@@ -1,5 +1,5 @@
 # Basic-Calculator
-It is a basic calculator built using HTML, CSS and Javascript. It performs simple arithmetic operations such as addition, subtraction, multiplication, division, and modulus.
+It is a basic calculator built using HTML, CSS and Javascript. It performs simple arithmetic operations such as addition, subtraction, multiplication, division, and modulus. It is a beginner friendly  project.
 
 *Features :
 1.Interactive user interface with number and operator buttons.
