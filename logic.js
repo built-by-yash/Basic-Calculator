@@ -1,16 +1,16 @@
-function calculate(num1, num2, operator) {
+function calculate(n1, n2, operator) {
     let result;
 
     if (operator === "+") {
-        result = num1 + num2;
+        result = n1 + n2;
     } else if (operator === "-") {
-        result = num1 - num2;
+        result = n1 - n2;
     } else if (operator === "*") {
-        result = num1 * num2;
+        result = n1 * n2;
     } else if (operator === "/") {
-        result = num2 !== 0 ? num1 / num2 : "Error! Division by zero.";
+        result = n2 !== 0 ? num1 / num2 : "Error! Division by zero.";
     } else if (operator === "%") {
-        result = num1 % num2;
+        result = n1 % n2;
     } else {
         result = "Invalid operator!";
     }
@@ -23,3 +23,4 @@ let n2 = Number(prompt("Enter second number:"));
 const op = prompt("Enter operator (+, -, *, /, %):");
 
 alert("Result: " + calculate(n1, n2, op));
+
